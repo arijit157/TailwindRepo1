@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Skills</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar section -->
+    <div class="p-3 bg-slate-900 text-white flex justify-between md:p-4">
+        <div class="grid items-center">
+            <a href="#">
+                <p class="uppercase text-xl">UpSkiller</p>
+            </a>
+        </div>
+        <nav class="grid items-center">
+            <ul class="text-base hidden md:flex md:items-center md:justify-between md:gap-6 md:text-lg">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#courses">
+                    <li>Courses</li>
+                </a>
+                <a href="#">
+                    <li>About Us</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="hidden md:block">
+            <button class="bg-sky-600 text-white rounded-md p-2 px-3 hover:bg-sky-800">Login/Signup</button>
+        </div>
+        <div class="md:hidden">
+            <a href="#" class="text-4xl">&#8801;</a>
+        </div>
+    </div>
+
+    <!-- hero section -->
+    <header
+        class="w-full h-auto px-3 mt-8 flex flex-col gap-5 lg:w-5/6 lg:mx-auto lg:flex-row  lg:items-center lg:gap-5 lg:mt-4">
+        <div class="text-center mx-auto mt-8 lg:text-left lg:w-5/6">
+            <h1 class="text-5xl font-bold drop-shadow-md">Unlock your coding skills</h1>
+            <p class="text-slate-600 text-lg mt-4">Get certified in cutting-edge technologies and let's stand out from
+                the crowd</p>
+            <button class="bg-sky-500 text-xl py-2 px-5 mt-4 text-white rounded-md hover:bg-sky-700 mx-auto">Enroll
+                Now!</button>
+        </div>
+        <div>
+            <img class="h-auto w-full md:w-[55%] mx-auto lg:w-3/4" src="./css.png" alt="coding">
+        </div>
+    </header>
+
+    <!-- courses section -->
+    <div class="mt-8" id="courses">
+        <h1 class="text-4xl text-center">Popular Courses</h1>
+        <div class="mt-7 p-8 flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-8">
+            <!-- course cards -->
+            <div class="shadow-xl rounded-[7px] md:w-96 p-5">
+                <!--icon-->
+                <div class="text-4xl">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+
+                <h2 class="mt-3 text-2xl font-bold">React.js</h2>
+                <!--description-->
+                <div class="mt-3">
+                    <p class="text-slate-600">
+                        React is a free and open-source front-end JavaScript library for building user interfaces based
+                        on components. It is maintained by Meta and a community of individual developers and companies
+                    </p>
+                </div>
+                <!--buy button-->
+                <button class="mt-3 bg-sky-500 px-4 py-2 rounded-md text-white w-full text-lg hover:bg-sky-700">Buy
+                    Now</button>
+            </div>
+
+            <div class="shadow-xl rounded-[7px] md:w-96 p-5">
+                <!--icon-->
+                <div class="text-4xl">
+                    <i class="fa-brands fa-angular"></i>
+                </div>
+
+                <h2 class="mt-3 text-2xl font-bold">Angular 18</h2>
+                <!--description-->
+                <div class="mt-3">
+                    <p class="text-slate-600">
+                        Angular is a free and open-source front-end JavaScript framework for building user interfaces
+                        based
+                        on components. It is maintained by Google and a community of individual developers and companies
+                    </p>
+                </div>
+                <!--buy button-->
+                <button class="mt-3 bg-sky-500 px-4 py-2 rounded-md text-white w-full text-lg hover:bg-sky-700">Buy
+                    Now</button>
+            </div>
+
+            <div class="shadow-xl rounded-[7px] md:w-96 p-5">
+                <!--icon-->
+                <div class="text-4xl">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <h2 class="mt-3 text-2xl font-bold">MongoDB</h2>
+                <!--description-->
+                <div class="mt-3">
+                    <p class="text-slate-600">
+                        MongoDB is a popular NoSQL database that stores data in JSON-like documents. Unlike relational
+                        databases, it uses flexible schemas, making it a good fit for storing constantly evolving data.
+                    </p>
+                </div>
+                <!--buy button-->
+                <button class="mt-3 bg-sky-500 px-4 py-2 rounded-md text-white w-full text-lg hover:bg-sky-700">Buy
+                    Now</button>
+            </div>
+
+            <div class="shadow-xl rounded-[7px] md:w-96 p-5">
+                <!--icon-->
+                <div class="text-4xl">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+
+                <h2 class="mt-3 text-2xl font-bold">Java</h2>
+                <!--description-->
+                <div class="mt-3">
+                    <p class="text-slate-600">
+                        Java, a widely used programming language, is known for its "write once, run anywhere" feature.
+                        This means code can run on various platforms with a Java Virtual Machine (JVM).Popular for web
+                        applications and enterprise software.
+                    </p>
+                </div>
+                <!--buy button-->
+                <button class="mt-3 bg-sky-500 px-4 py-2 rounded-md text-white w-full text-lg hover:bg-sky-700">Buy
+                    Now</button>
+            </div>
+
+            <div class="shadow-xl rounded-[7px] md:w-96 p-5">
+                <!--icon-->
+                <div class="text-4xl">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <h2 class="mt-3 text-2xl font-bold">JavaScript</h2>
+                <!--description-->
+                <div class="mt-3">
+                    <p class="text-slate-600">
+                        JavaScript, the king of web interactivity, breathes life into websites. Run by browsers, its
+                        code can manipulate the Document Object Model (DOM), adding features like animations, dynamic
+                        content, and user responses.
+                    </p>
+                </div>
+                <!--buy button-->
+                <button class="mt-3 bg-sky-500 px-4 py-2 rounded-md text-white w-full text-lg hover:bg-sky-700">Buy
+                    Now</button>
+            </div>
+
+            <div class="shadow-xl rounded-[7px] md:w-96 p-5">
+                <!--icon-->
+                <div class="text-4xl">
+                    <i class="fa-brands fa-css3"></i>
+                </div>
+
+                <h2 class="mt-3 text-2xl font-bold">CSS</h2>
+                <!--description-->
+                <div class="mt-3">
+                    <p class="text-slate-600">
+                        CSS, the stylist of the web, controls a website's look and feel. It can change fonts, colors,
+                        layouts, and more. Separate from HTML content, CSS keeps code clean and allows for easy style
+                        changes across multiple pages.
+                    </p>
+                </div>
+                <!--buy button-->
+                <button class="mt-3 bg-sky-500 px-4 py-2 rounded-md text-white w-full text-lg hover:bg-sky-700">Buy
+                    Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="mt-7 bg-slate-900 text-white w-full pt-14 px-14 pb-4">
+        <div class="flex justify-center items-center flex-wrap gap-14">
+            <div>
+                <h2 class="uppercase text-4xl font-semibold">UpSkiller</h2>
+                <p class="text-slate-500 text-lg mt-2">A way to a successfull career</p>
+                <div class="flex items-center gap-5 mt-2">
+                    <div class="text-xl">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="text-xl">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="text-xl">
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-xl mb-3">Important Links</h2>
+                <ul class="text-slate-400">
+                    <a href="#" class="hover:underline">
+                        <li>Home</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>Courses</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>About Us</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="text-xl mb-3">Blogs</h2>
+                <ul class="text-slate-400">
+                    <a href="#" class="hover:underline">
+                        <li>Data Science</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>Artificial Intelligence</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>Software Developement</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>Recent IT Trends</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="text-xl mb-3">Courses</h2>
+                <ul class="text-slate-400">
+                    <a href="#" class="hover:underline">
+                        <li>React.js</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>Angular 18</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>MongoDB</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>Java</li>
+                    </a>
+                    <a href="#" class="hover:underline">
+                        <li>JavaScript</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <p class="text-slate-400 text-base">Made with <span class="text-red-600 p-1 text-lg">♥</span> by Arijit</p>
+        </div>
+    </footer>
+</body>
+
+</html>
